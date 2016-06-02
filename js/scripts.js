@@ -5,8 +5,8 @@ $(document).ready(function(){
     var side2 = parseInt($("#side2").val());
     var side3 = parseInt($("#side3").val());
 
-    alert(checkSides(side1,side2,side3));
-
+    $("#result").show();
+    $("#result").text(checkSides(side1,side2,side3));
 
   });
 });
